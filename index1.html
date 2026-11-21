@@ -1,10 +1,105 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-    <title>Mon Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon Portfolio Numérique</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Bienvenue dans mon Portfolio</h1>
-    <p>Je suis étudiante en informatique.</p>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Mon Portfolio</h1>
+
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#modules">Mes modules</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- SECTION ACCUEIL -->
+    <main>
+
+        <section id="accueil" class="bienvenue">
+
+            <h2>Bienvenue dans mon univers numérique !</h2>
+
+            <p>
+                Découvrez mon parcours, mes compétences
+                et mes réalisations universitaires.
+            </p>
+
+            <a href="#modules" class="bouton">
+                Découvrir mes projets
+            </a>
+
+        </section>
+
+        <!-- SECTION PRESENTATION -->
+        <section id="apropos">
+
+            <h2>À propos de moi</h2>
+
+            <p>
+                Je suis étudiante en première année
+                de Licence en Technologie de l'Informatique.
+
+                Ce portfolio présente mes apprentissages,
+                mes activités et mes projets réalisés
+                durant le semestre.
+            </p>
+
+        </section>
+
+        <!-- SECTION MODULES -->
+        <section id="modules">
+
+            <h2>Mes unités d'enseignement</h2>
+
+            <div class="conteneur">
+
+                <a href="digital-skills/cybersecurite.html"
+                   class="carte">
+                    <h3>Digital Skills</h3>
+                    <p>Cybersécurité, Prompt Engineering
+                    et création de contenu.</p>
+                </a>
+
+                <a href="developpement/python.html"
+                   class="carte">
+                    <h3>Développement</h3>
+                    <p>Python, langage C et algorithmique.</p>
+                </a>
+
+                <a href="systemes/systemes-exploitation.html"
+                   class="carte">
+                    <h3>Systèmes et Fondements</h3>
+                    <p>Linux, Windows, architecture
+                    des ordinateurs et électronique.</p>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+
+        <p>Merci pour votre visite !</p>
+
+        <p>© 2026 - Mon Portfolio Numérique</p>
+
+    </footer>
+
 </body>
 </html>
