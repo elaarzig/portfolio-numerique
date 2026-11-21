@@ -163,4 +163,8 @@ th, td {
     padding: 15px;
     border: 1px solid #e8aebe;
 }
+section .carte {
+    max-width: 700px;
+    margin: 20px auto;
+}
 
