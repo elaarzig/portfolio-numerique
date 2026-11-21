@@ -171,5 +171,20 @@ section .carte {
     max-width: 700px;
     margin: 20px auto;
 }
+pre {
+    background-color: #fff0f4;
+    color: #704456;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    overflow-x: auto;
+    border: 1px solid #e8aebe;
+    max-width: 850px;
+    margin: 20px auto;
+}
 
+pre code {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+}
 
