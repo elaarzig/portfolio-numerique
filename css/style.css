@@ -296,5 +296,58 @@ main .carte td {
     font-weight: bold;
 }
 
+/* QUIZ WINDOWS */
+
+#quiz-windows {
+    background-color: #edf4f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#quiz-windows h2 {
+    color: #183b56;
+    margin-bottom: 15px;
+}
+
+#quiz-windows .quiz-box {
+    background-color: white;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#quiz-windows #reponses button {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    margin: 12px 0;
+    background-color: white;
+    color: #183b56;
+    border: 1px solid #183b56;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#quiz-windows #reponses button:hover:not(:disabled) {
+    background-color: #dceaf3;
+}
+
+#quiz-windows button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #183b56;
+    color: white;
+    cursor: pointer;
+}
+
+#quiz-windows #resultat {
+    margin: 20px;
+    font-weight: bold;
+}
+
+
 
 
