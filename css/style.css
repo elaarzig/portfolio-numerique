@@ -362,8 +362,9 @@ body {
     border-radius: 50%;
     filter: blur(65px);
     opacity: 0.35;
-    z-index: -1;
+    z-index: 0;
     pointer-events: none;
+}
 }
 
 .decoration-1 {
@@ -428,6 +429,40 @@ section h2::after {
     background: #d982ad;
     border-radius: 10px;
     margin: 9px auto 0;
+}
+header, main, section, footer {
+    position: relative;
+    z-index: 1;
+}
+
+/* QUIZ : THEME ROSE */
+
+#quiz-linux,
+#quiz-windows {
+    background-color: #fff0f5;
+}
+
+#quiz-linux h2,
+#quiz-windows h2 {
+    color: #a84f70;
+}
+
+#quiz-linux button,
+#quiz-windows button {
+    background-color: #c97896;
+    color: white;
+}
+
+#quiz-linux #reponses button,
+#quiz-windows #reponses button {
+    background-color: white;
+    color: #59434b;
+    border: 1px solid #e8aebe;
+}
+
+#quiz-linux #reponses button:hover:not(:disabled),
+#quiz-windows #reponses button:hover:not(:disabled) {
+    background-color: #f9dce5;
 }
 
 
