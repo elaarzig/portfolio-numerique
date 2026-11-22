@@ -348,6 +348,89 @@ main .carte td {
     font-weight: bold;
 }
 
+/* ===== DECORATIONS ROSE CREATIF ===== */
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Formes décoratives */
+
+.decoration {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(65px);
+    opacity: 0.35;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.decoration-1 {
+    width: 220px;
+    height: 220px;
+    background: #f3a6c8;
+    top: 100px;
+    left: -90px;
+}
+
+.decoration-2 {
+    width: 260px;
+    height: 260px;
+    background: #e8b4d0;
+    bottom: 50px;
+    right: -100px;
+}
+
+.decoration-3 {
+    width: 150px;
+    height: 150px;
+    background: #ffd6e8;
+    top: 50%;
+    left: 45%;
+}
+
+/* Effet élégant sur les cartes */
+
+.carte {
+    transition: transform 0.35s ease,
+                box-shadow 0.35s ease;
+}
+
+.carte:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(190, 100, 145, 0.18);
+}
+
+/* Effet sur les boutons */
+
+button, .bouton {
+    transition: all 0.3s ease;
+}
+
+button:hover, .bouton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 18px rgba(190, 100, 145, 0.25);
+}
+
+/* Décoration des titres */
+
+section h2 {
+    position: relative;
+    display: inline-block;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 55%;
+    height: 3px;
+    background: #d982ad;
+    border-radius: 10px;
+    margin: 9px auto 0;
+}
+
+
 
 
 
